@@ -70,33 +70,28 @@ Notice you also need to update to fastdata 0.0.7
 
 **Transformations** 
 
-1. **new Arithmetic on columns:** Something that was not previously possible was to perform arithmetic operations on columns (e.g. divide values by 1000). Now, you have transformations dedicates specifically to element-wise column arithmetic:
-    1. [Column] Divide column values
-    2. [Column] Add to column values
-    3. [Column] Multiply column values
-    4. [Column] Exponentiate column values
-    5. [Column] Subtract from column values
-2. **improvement Split list to columns:** The previous split function did not work very well. We have improved the way it works, and added the possibility to:
+1. **Arithmetic on columns:** Something that was not previously possible was to perform arithmetic operations on columns (e.g. divide values by 1000). Now, you have transformations dedicates specifically to element-wise column arithmetic: divide, add, multiply, exponentiate, subtract
+2. **Split list to columns:** The previous split function did not work very well. We have improved the way it works, and added the possibility to:
     6. Deal with lists with parenthesis or brackets
     7. Create new column indicators for each unique item (i.e. 0/1) or just extract the items by order by using the split_type variable
-3. **improvement Flat pivot tables:** Pivot tables are now flat by default, instead of having a hierarchical index, which does not allow filtering and is hard to understand
-4. **new [Column] Encode labels to numbers:** Allows to convert categorical variables to numbers
-5. **new Data overview:** Added basic support for better understanding the data before working on it. This is currently outputted in the notebook
+3. **Flat pivot tables:** Pivot tables are now flat by default, instead of having a hierarchical index, which does not allow filtering and is hard to understand
+4. **Encode labels to numbers:** Allows to convert categorical variables to numbers
+5. **Data overview:** Added basic support for better understanding the data before working on it. This is currently outputted in the notebook
     8. Overview: Null values and types
     9. Overview: Column statistics
-6. **new Transpose table:** Generate a transposition of a table
-7. **new [Column] Change value based on indicator:** This function allows to change the value of a column/create a new column based on the values of an indicator. It is usually used after generating a true/false indicator with the filter functionality. For example, you can replace all the outliers above a certain value with a smoothed number.
-8. **new [Column] Keep columns:** You can now express the columns you want to keep and not just the ones you want to delete
-9. **new [Column] Rename categories:** You can now give different names after using the bucket function (or apply it to any other categorical variable). For example, you can rename [15-25] to something like “high”. It only works following the order of the buckets (from small to bigger) for the moment.
-10. **improvement More consistency:** improved the consistency of the parameters: 
+6. **Transpose table:** Generate a transposition of a table
+7. **Change value based on indicator:** This function allows to change the value of a column/create a new column based on the values of an indicator. It is usually used after generating a true/false indicator with the filter functionality. For example, you can replace all the outliers above a certain value with a smoothed number.
+8. **Keep columns:** You can now express the columns you want to keep and not just the ones you want to delete
+9. **Rename categories:** You can now give different names after using the bucket function (or apply it to any other categorical variable). For example, you can rename [15-25] to something like “high”. It only works following the order of the buckets (from small to bigger) for the moment.
+10. **More consistency:** improved the consistency of the parameters: 
     10. Most of the transformations have a description
     11. Improve parameter descriptions
 
 **Data visualizer**
 
-1. **improvement** Not the header sticks on top, so that you know to which column the variables relate to
-2. **new** Added information about the size of the dataframe, in terms of columns and rows 
-3. **new** Added information about the data types. This is useful to know if you need to parse the column to a datetime or not
+1. **Sticky header:** Not the header sticks on top, so that you know to which column the variables relate to
+2. **Dataframe info** Added information about the size of the dataframe, in terms of columns and rows 
+3. **Datatype** Added information about the data types. This is useful to know if you need to parse the column to a datetime or not
 
 **Bug fixes** 
 

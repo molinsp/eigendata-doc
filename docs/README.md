@@ -6,5 +6,5 @@
 2. Download installers
    1. Windows
    2. Mac/Linux
-      1. [Config](files/default_environment.yaml ':ignore')
+      1. [Config](files/default_environment.yaml ':include')
 

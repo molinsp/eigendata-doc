@@ -18,19 +18,19 @@
 1. Run Anaconda in your computer
 2. In home screen of Anaconda (you can see if you are in “Home” on the left), change the dropdown to **eigendata**
 
-![img](https://lh6.googleusercontent.com/a368DCaCm7cbzoa-tAZtmPaBh9HtQ0xPnyxmR9y9iH-N7dUyGCfTBwCpqvYy8cPD8gQuqGiDGjoac1nn_WdC6d7b4HR1HYNmTzeFb_53CfUxAuo9JkynOJeWdqt1IOxxZKJLpC-t)
+<img src="https://lh6.googleusercontent.com/a368DCaCm7cbzoa-tAZtmPaBh9HtQ0xPnyxmR9y9iH-N7dUyGCfTBwCpqvYy8cPD8gQuqGiDGjoac1nn_WdC6d7b4HR1HYNmTzeFb_53CfUxAuo9JkynOJeWdqt1IOxxZKJLpC-t" alt="img" style="zoom:50%;" />
 
 3. Now you can click launch to start Jupyter Lab
 
-![img](https://lh6.googleusercontent.com/EXaa4ce3ctwcfQ5bBHvREOD2EV5vsXmLriC744DhMmxqlb7adHuA1NzMoHXTG6b5y9wYoCwKJbVRb0ISkW6TWlXqxod0L1-5TI10W62iFVj5OCJmkK0LzypcUYx9eRFNCVLzSdRg)
+<img src="https://lh6.googleusercontent.com/EXaa4ce3ctwcfQ5bBHvREOD2EV5vsXmLriC744DhMmxqlb7adHuA1NzMoHXTG6b5y9wYoCwKJbVRb0ISkW6TWlXqxod0L1-5TI10W62iFVj5OCJmkK0LzypcUYx9eRFNCVLzSdRg" alt="img" style="zoom:50%;" />
 
 4. Getting the Eigendata interface: Once in JupyterLab, select Eigendata in the menu on the top
 
-<img src="https://lh4.googleusercontent.com/51is3SK4UDkXwKNoq9GtvQUZ4ST0TnEe4-YNGCeUwwWm7M0ECPyWwVrlfdN9n9hdEFtnfY_-BBPQCOjKusaSLRvW0ZLMF-1TlK3ZY7DWAUl2gke3_qOxVXwy0tFwrKRYt-CNCOwx" alt="img" style="zoom:100%;" />
+<img src="https://lh4.googleusercontent.com/51is3SK4UDkXwKNoq9GtvQUZ4ST0TnEe4-YNGCeUwwWm7M0ECPyWwVrlfdN9n9hdEFtnfY_-BBPQCOjKusaSLRvW0ZLMF-1TlK3ZY7DWAUl2gke3_qOxVXwy0tFwrKRYt-CNCOwx" alt="img" style="zoom:75%;" />
 
 5. Click **Magic Formula Bar**
 
-![img](https://lh6.googleusercontent.com/1FzR9RzxYkm6G21NQn_EF2sJxtUtc9EXmqND-BF702rBtKWA_nrmKU73muvQZotOPTDiPLf_kLFWIHcsj5Qju2YozB3KCO4WjEZ6JlWo6gULKoEdK9ARJeMZ_h1qsdU5rOHRSpuJ)
+<img src="https://lh6.googleusercontent.com/1FzR9RzxYkm6G21NQn_EF2sJxtUtc9EXmqND-BF702rBtKWA_nrmKU73muvQZotOPTDiPLf_kLFWIHcsj5Qju2YozB3KCO4WjEZ6JlWo6gULKoEdK9ARJeMZ_h1qsdU5rOHRSpuJ" alt="img" style="zoom:75%;" />
 
 
 
@@ -38,11 +38,11 @@
 
 1. Open Anaconda, go to environments (on the left) and select **eigendata** (it will take a bit to load)
 
-![img](https://lh4.googleusercontent.com/LNwPTeG9yRPrBrak0X28ERj2vn5O1ynPoaURWbrMYdeEouUKxa_MH_MWbbEepZu0OTG4q9GXDIv7J3NsBpfDtHPiPcFp4-iBL4xAENqAuhPAjEqr-LzXUK7noQvfkqHo7Q-4nIAM)
+<img src="https://lh4.googleusercontent.com/LNwPTeG9yRPrBrak0X28ERj2vn5O1ynPoaURWbrMYdeEouUKxa_MH_MWbbEepZu0OTG4q9GXDIv7J3NsBpfDtHPiPcFp4-iBL4xAENqAuhPAjEqr-LzXUK7noQvfkqHo7Q-4nIAM" alt="img" style="zoom:50%;" />
 
 2. Select Open Terminal
 
-![img](https://lh4.googleusercontent.com/y14FaIC9W5KFgafHekB5xvxTeaCbgsXdA1vntAAE2p5Z-3zBsztiOt0bzymgvPmhOCPQ_dWsICZCgWL_h1CIr2PuvPLeA7J0CXsa6WvCvvIETYWhGZaP6IIue_r6WdagF9ASYAer)
+<img src="https://lh4.googleusercontent.com/y14FaIC9W5KFgafHekB5xvxTeaCbgsXdA1vntAAE2p5Z-3zBsztiOt0bzymgvPmhOCPQ_dWsICZCgWL_h1CIr2PuvPLeA7J0CXsa6WvCvvIETYWhGZaP6IIue_r6WdagF9ASYAer" alt="img" style="zoom:50%;" />
 
 3. Run the following commands in the terminal
 

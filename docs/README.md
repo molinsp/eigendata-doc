@@ -7,9 +7,18 @@
    1. Windows
       1. <a href="files/install_windows.bat" download="">Installer</a> 
       2. <a href="files/windows_environment.yaml" download="">Configuration File</a> 
+      3. Double click on install_windows.bat
    2. Mac/Linux
       1. <a href="files/install_default.sh" download="">Installer</a> 
       2. <a href="files/default_environment.yaml" download="">Configuration File</a> 
+      3. Run the installer
+         1. Go to Anaconda Navigator
+         2. Click Environments in the left side-bar
+         3. Select eigendata on the left envionment list (it will take a while to load the environmnet)
+         4. Press the ▶ button and select "Open terminal"
+         5. Navigate to the directory where the installer has been downloaded
+            1. For example: `cd ~/Downloads`
+         6. Run `sh install_default.sh`
 
 
 
@@ -57,6 +66,49 @@
       
 
 # 🗒️ Release notes
+
+## 0.1.9
+
+**Important changes**
+
+1. You need to install pyforest for Eigendata 0.1.9 to work properly
+
+2. 1. `pip install pyforest`
+
+3. You need to install xlrd to be able to load excel datasets
+
+4. 1. `pip install xldd`
+
+5. fastdata has graduated, and is no longer in test pip. To get latest version
+
+6. 1. `pip uninstall fastdata`
+   2. `pip install fastdata`
+
+7. New chat functionality allows you to get help right from Eigendata Formula Bar
+
+**Magic Formula Bar** 
+
+1. **No more import errors!** Now all the library import is handled for you
+2. **Better error handling:** If the selected transformation generates an error, you can see it directly in the formula bar and it will not be written in the notebook
+3. **Load data from excel files.** More sources coming soon
+4. **Create new columns** with a static value. Useful when you want to put different datasets together and want a column to differentiate
+5. **Filter improvements:** Search among all the columns for wide datasets, filter out empty values in date columns, and select several options in a categorical column with a multi-select
+6. **Better functions for handling text:** perform common operations like removing initial or trailing characters and get text at certain positions.
+7. **Parameter and transformation description improvements**
+
+**Data Visualizer**
+
+1. **Delete button**: We know data analysis is sometimes a messy process. We help you keep it in check with a delta table functionality you can easily trigger from the data visualizer.
+2. **Support for special characters**: Now you can properly display Spanish and Greek characters among others
+3. **NaNs shown explicitly**: To help you with your data analysis tasks, and avoid confusion with empty strings we are now explicitly displayin NaN when the value is NaN, just like when you print in the notebook
+4. **Show index in data visualizer**, to keep track of the rows number you are seeing
+
+**Bug fixes**
+
+1. Subtract function which was not working properly
+2. Display of booleans in the data visualizer
+3. Behavior of not in the filter transformation
+4. Joins with multiple values were not working properly. Now this is fixed
 
 ## 0.1.8 
 

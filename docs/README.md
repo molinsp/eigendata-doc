@@ -19,6 +19,7 @@
          5. Navigate to the directory where the installer has been downloaded
             1. For example: `cd ~/Downloads`
          6. Run `sh install_default.sh`
+         7. If you have trouble see the section Updating Eigendata with detailed walkthrough on how to open the terminal.
 
 
 
@@ -77,7 +78,7 @@
 
 3. You need to install xlrd to be able to load excel datasets
 
-4. 1. `pip install xldd`
+4. 1. `pip install xlrd`
 
 5. fastdata has graduated, and is no longer in test pip. To get latest version
 

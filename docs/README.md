@@ -2,45 +2,33 @@
 
 # 🖥️ Installation
 
-1. Download [anaconda](https://www.anaconda.com/products/individual)
-2. Download installers
-   1. Windows
-      1. <a href="files/install_windows.bat" download="">Installer</a> 
-      2. <a href="files/windows_environment.yaml" download="">Configuration File</a> 
-      3. Double click on install_windows.bat
-   2. Mac/Linux
-      1. <a href="files/install_default.sh" download="">Installer</a> 
-      2. <a href="files/default_environment.yaml" download="">Configuration File</a> 
-      3. Run the installer
-         1. Go to Anaconda Navigator
-         2. Click Environments in the left side-bar
-         3. Select eigendata on the left envionment list (it will take a while to load the environmnet)
-         4. Press the ▶ button and select "Open terminal"
-         5. Navigate to the directory where the installer has been downloaded
-            1. For example: `cd ~/Downloads`
-         6. Run `sh install_default.sh`
-         7. If you have trouble see the section Updating Eigendata with detailed walkthrough on how to open the terminal.
+If you don't have Anaconda installed, you will need to  [download and install](https://www.anaconda.com/products/individual) it before proceeding.
+
+**Instructions for Windows**
+
+1. <a href="files/install_windows.bat" download="">Download installer</a> 
+2. <a href="files/windows_environment.yaml" download="">Download configuration file</a> in the same folder than the installer
+3. Double click on `install_windows.bat`
+
+**Instructions for Mac/Linux**
+
+1. <a href="files/install_default.sh" download="">Download installer</a> 
+2. <a href="files/default_environment.yaml" download="">Download configuration File</a> 
+3. Run the installer
+   1. Go to Anaconda Navigator
+   2. Click Environments in the left side-bar
+   3. Select eigendata on the left envionment list (it will take a while to load the environmnet)
+   4. Press the ▶ button and select "Open terminal"
+   5. Navigate to the directory where the installer has been downloaded
+      1. For example: `cd ~/Downloads`
+   6. Run `sh install_default.sh`
+   7. If you have trouble see the section Updating Eigendata with detailed walkthrough on how to open the terminal.
 
 
 
 # 🏃Getting started
 
-1. Run Anaconda in your computer
-2. In home screen of Anaconda (you can see if you are in “Home” on the left), change the dropdown to **eigendata**
-
-<img src="https://lh6.googleusercontent.com/a368DCaCm7cbzoa-tAZtmPaBh9HtQ0xPnyxmR9y9iH-N7dUyGCfTBwCpqvYy8cPD8gQuqGiDGjoac1nn_WdC6d7b4HR1HYNmTzeFb_53CfUxAuo9JkynOJeWdqt1IOxxZKJLpC-t" alt="img" style="zoom:50%;" />
-
-3. Now you can click launch to start Jupyter Lab
-
-<img src="https://lh6.googleusercontent.com/EXaa4ce3ctwcfQ5bBHvREOD2EV5vsXmLriC744DhMmxqlb7adHuA1NzMoHXTG6b5y9wYoCwKJbVRb0ISkW6TWlXqxod0L1-5TI10W62iFVj5OCJmkK0LzypcUYx9eRFNCVLzSdRg" alt="img" style="zoom:50%;" />
-
-4. Getting the Eigendata interface: Once in JupyterLab, select Eigendata in the menu on the top
-
-<img src="https://lh4.googleusercontent.com/51is3SK4UDkXwKNoq9GtvQUZ4ST0TnEe4-YNGCeUwwWm7M0ECPyWwVrlfdN9n9hdEFtnfY_-BBPQCOjKusaSLRvW0ZLMF-1TlK3ZY7DWAUl2gke3_qOxVXwy0tFwrKRYt-CNCOwx" alt="img" style="zoom:75%;" />
-
-5. Click **Magic Formula Bar**
-
-<img src="https://lh6.googleusercontent.com/1FzR9RzxYkm6G21NQn_EF2sJxtUtc9EXmqND-BF702rBtKWA_nrmKU73muvQZotOPTDiPLf_kLFWIHcsj5Qju2YozB3KCO4WjEZ6JlWo6gULKoEdK9ARJeMZ_h1qsdU5rOHRSpuJ" alt="img" style="zoom:75%;" />
+<iframe width="640" height="400" src="https://www.loom.com/embed/dfe8927e70c3417d8af1c70133da09eb" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
 
@@ -68,24 +56,35 @@
 
 # 🗒️ Release notes
 
+## 0.2.1
+
+**Important changes**
+
+1. You need to install gspread-pandas to load google sheets
+   1. `conda install -c conda-forge gspread-pandas`
+
+**Magic Formula Bar**
+
+1. Google Sheets and Airtable data import
+
+**Data Visualizer**
+
+1. Ability to resize columns
+2. Thousand separators for columns with numbers
+3. Visualization for non-dataframe variables
+
 ## 0.1.9
 
 **Important changes**
 
 1. You need to install pyforest for Eigendata 0.1.9 to work properly
-
 2. 1. `pip install pyforest`
-
 3. You need to install xlrd to be able to load excel datasets
-
 4. 1. `pip install xlrd`
-
 5. fastdata has graduated, and is no longer in test pip. To get latest version
-
-6. 1. `pip uninstall fastdata`
+   1. `pip uninstall fastdata`
    2. `pip install fastdata`
-
-7. New chat functionality allows you to get help right from Eigendata Formula Bar
+6. New chat functionality allows you to get help right from Eigendata Formula Bar
 
 **Magic Formula Bar** 
 

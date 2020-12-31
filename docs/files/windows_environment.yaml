@@ -12,7 +12,9 @@ dependencies:
  - jupyterlab=2.2.6
  - numpy<1.19.4
  - xlrd>1.0.0
+ - gspread-pandas
  - pip
  - pip:
     - fastdata
     - pyforest
+    - airtable-python-wrapper

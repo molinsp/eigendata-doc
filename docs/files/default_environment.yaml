@@ -12,8 +12,8 @@ dependencies:
  - jupyterlab=2.2.6
  - xlrd>1.0.0
  - gspread-pandas
+ - plotly
  - pip
  - pip:
     - fastdata
-    - pyforest
     - airtable-python-wrapper

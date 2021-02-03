@@ -2,12 +2,12 @@
 
 # 🖥️ Installation
 
-If you don't have Anaconda installed, you will need to  [download and install](https://www.anaconda.com/products/individual) it before proceeding.
+If you don't have Anaconda installed, you will need to [download and install](https://www.anaconda.com/products/individual) it before proceeding.
 
 **Instructions for Windows**
 
 1. <a href="files/install_windows.bat" download="">Download installer</a> 
-2. <a href="files/windows_environment.yaml" download="">Download configuration file</a> in the same folder than the installer
+2. <a href="files/windows_environment.yaml" download="">Download configuration file</a> in the same folder as the installer
 3. Double click on `install_windows.bat`
 
 **Instructions for Mac/Linux**
@@ -17,12 +17,12 @@ If you don't have Anaconda installed, you will need to  [download and install](h
 3. Run the installer
    1. Go to Anaconda Navigator
    2. Click Environments in the left side-bar
-   3. Select eigendata on the left envionment list (it will take a while to load the environmnet)
+   3. Select eigendata on the left environment list (it will take a while to load the environment)
    4. Press the ▶ button and select "Open terminal"
-   5. Navigate to the directory where the installer has been downloaded
-      1. For example: `cd ~/Downloads`
+   5. Navigate to the directory where you downloaded the installer
+      1. For example `cd ~/Downloads`
    6. Run `sh install_default.sh`
-   7. If you have trouble see the section Updating Eigendata with detailed walkthrough on how to open the terminal.
+   7. If you have trouble, see the section Updating Eigendata with a detailed walkthrough on how to open the terminal.
 
 
 
@@ -34,7 +34,7 @@ If you don't have Anaconda installed, you will need to  [download and install](h
 
 # 🔄 Updating Eigendata
 
-1. Open Anaconda, go to environments (on the left) and select **eigendata** (it will take a bit to load)
+1. Open Anaconda, go to environments (on the left), and select **eigendata** (it will take a bit to load)
 
 <img src="https://lh4.googleusercontent.com/LNwPTeG9yRPrBrak0X28ERj2vn5O1ynPoaURWbrMYdeEouUKxa_MH_MWbbEepZu0OTG4q9GXDIv7J3NsBpfDtHPiPcFp4-iBL4xAENqAuhPAjEqr-LzXUK7noQvfkqHo7Q-4nIAM" alt="img" style="zoom:50%;" />
 
@@ -55,6 +55,25 @@ If you don't have Anaconda installed, you will need to  [download and install](h
       
 
 # 🗒️ Release notes
+
+## 0.2.2
+
+**Important changes**
+
+1. Deprecated use of pyforest for a new *magic import system. It will* write the import statements for you in the first cell of the notebook automatically. You don't have to worry about import statements and can still keep track of every package that is used in the notebook.
+
+**Magic formula bar**
+
+1. **Plotting in the notebook** supported via [Plotly express](https://plotly.com/python/plotly-express/)
+2. Transformations to clean text, convert columns to numerical values, and set and remove indexes 
+3. Improved search functionality
+
+**Data visualizer**
+
+1. **Sort in the data visualizer**
+2. Column resizing is no longer lost when you change tabs
+
+
 
 ## 0.2.1
 
@@ -81,7 +100,7 @@ If you don't have Anaconda installed, you will need to  [download and install](h
 2. 1. `pip install pyforest`
 3. You need to install xlrd to be able to load excel datasets
 4. 1. `pip install xlrd`
-5. fastdata has graduated, and is no longer in test pip. To get latest version
+5. fastdata has graduated and is no longer in test pip. To get latest version
    1. `pip uninstall fastdata`
    2. `pip install fastdata`
 6. New chat functionality allows you to get help right from Eigendata Formula Bar
@@ -89,18 +108,18 @@ If you don't have Anaconda installed, you will need to  [download and install](h
 **Magic Formula Bar** 
 
 1. **No more import errors!** Now all the library import is handled for you
-2. **Better error handling:** If the selected transformation generates an error, you can see it directly in the formula bar and it will not be written in the notebook
+2. **Better error handling:** If the selected transformation generates an error, you can see it directly in the formula bar, and it will not write in the notebook
 3. **Load data from excel files.** More sources coming soon
 4. **Create new columns** with a static value. Useful when you want to put different datasets together and want a column to differentiate
 5. **Filter improvements:** Search among all the columns for wide datasets, filter out empty values in date columns, and select several options in a categorical column with a multi-select
-6. **Better functions for handling text:** perform common operations like removing initial or trailing characters and get text at certain positions.
+6. **Better functions for handling text:** perform common operations like removing initial or trailing characters, and extract text at certain positions.
 7. **Parameter and transformation description improvements**
 
 **Data Visualizer**
 
 1. **Delete button**: We know data analysis is sometimes a messy process. We help you keep it in check with a delta table functionality you can easily trigger from the data visualizer.
-2. **Support for special characters**: Now you can properly display Spanish and Greek characters among others
-3. **NaNs shown explicitly**: To help you with your data analysis tasks, and avoid confusion with empty strings we are now explicitly displayin NaN when the value is NaN, just like when you print in the notebook
+2. **Support for special characters**: Now, you can properly display Spanish and Greek characters, among others
+3. **NaNs shown explicitly**: To help you with your data analysis tasks and avoid confusion with empty strings, we are now explicitly displaying NaN when the value is NaN, just like when you print in the notebook
 4. **Show index in data visualizer**, to keep track of the rows number you are seeing
 
 **Bug fixes**
@@ -122,15 +141,13 @@ Notice you also need to update to fastdata 0.0.7
 
 **Transformations** 
 
-1. **Arithmetic on columns:** Something that was not previously possible was to perform arithmetic operations on columns (e.g. divide values by 1000). Now, you have transformations dedicates specifically to element-wise column arithmetic: divide, add, multiply, exponentiate, subtract
-2. **Split list to columns:** The previous split function did not work very well. We have improved the way it works, and added the possibility to:
+1. **Arithmetic on columns:** Something that was not previously possible was to perform arithmetic operations on columns (e.g., divide values by 1000). Now, you have transformations dedicates specifically to element-wise column arithmetic: divide, add, multiply, exponentiate, subtract
+2. **Split list to columns:** The previous split function did not work very well. We have improved the way it works and added the possibility to:
     6. Deal with lists with parenthesis or brackets
-    7. Create new column indicators for each unique item (i.e. 0/1) or just extract the items by order by using the split_type variable
+    7. Create new column indicators for each unique item (i.e. 0/1) or extract the items by order by using the split_type variable
 3. **Flat pivot tables:** Pivot tables are now flat by default, instead of having a hierarchical index, which does not allow filtering and is hard to understand
 4. **Encode labels to numbers:** Allows to convert categorical variables to numbers
-5. **Data overview:** Added basic support for better understanding the data before working on it. This is currently outputted in the notebook
-    8. Overview: Null values and types
-    9. Overview: Column statistics
+5. **Data overview:** Added basic support for better understanding the data: column statistics and null values
 6. **Transpose table:** Generate a transposition of a table
 7. **Change value based on indicator:** This function allows to change the value of a column/create a new column based on the values of an indicator. It is usually used after generating a true/false indicator with the filter functionality. For example, you can replace all the outliers above a certain value with a smoothed number.
 8. **Keep columns:** You can now express the columns you want to keep and not just the ones you want to delete
@@ -143,11 +160,11 @@ Notice you also need to update to fastdata 0.0.7
 
 1. **Sticky header:** Not the header sticks on top, so that you know to which column the variables relate to
 2. **Dataframe info** Added information about the size of the dataframe, in terms of columns and rows 
-3. **Datatype** Added information about the data types. This is useful to know if you need to parse the column to a datetime or not
+3. **Datatype** Added information about the data types
 
 **Bug fixes** 
 
-1. Creating a column after a query: This was raising a warning in some instances, it has been fixed
+1. Creating a column after a query: This was raising a warning in some instances
 
 2. Saving to csv did not work as expected when it tried to assign the result to a variable
 
@@ -158,6 +175,9 @@ Notice you also need to update to fastdata 0.0.7
 
 ## Error messages
 
+### Magic Formula Bar is blank
+
+This can be due to an adblocker preventing Eigendata from loading the transformations (which are hosted on our servers). In case you are using *Adguard*, you will need to disable it to get Eigendata working. Alternatively, you can switch to a browser where you don't have an adblocker installed.
 
 ### Node.js not supported 
 

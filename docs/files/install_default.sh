@@ -15,6 +15,8 @@ if conda info | grep -i 'conda version' ; then
         conda activate eigendata
         # 4. Install jupyter lab extension
         jupyter labextension install @molinsp/eigendata
+        # 5. Install plotly jupyter lab extension
+        jupyter labextension install jupyterlab-plotly
     fi
 else
     echo "Anaconda not installed, please install Anaconda before proceeding"

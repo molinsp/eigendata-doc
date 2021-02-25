@@ -6,23 +6,18 @@ If you don't have Anaconda installed, you will need to [download and install](ht
 
 **Instructions for Windows**
 
-1. <a href="files/install_windows.bat" download="">Download installer</a> 
-2. <a href="files/windows_environment.yaml" download="">Download configuration file</a> in the same folder as the installer
+1. <a href="files/install_windows.bat" download="">Download installer</a>  in the downloads folder
+2. <a href="files/windows_environment.yaml" download="">Download configuration file</a>  in the downloads folder
 3. Double click on `install_windows.bat`
 
 **Instructions for Mac/Linux**
 
-1. <a href="files/install_default.sh" download="">Download installer</a> 
-2. <a href="files/default_environment.yaml" download="">Download configuration File</a> 
-3. Run the installer
-   1. Go to Anaconda Navigator
-   2. Click Environments in the left side-bar
-   3. Select eigendata on the left environment list (it will take a while to load the environment)
-   4. Press the ▶ button and select "Open terminal"
-   5. Navigate to the directory where you downloaded the installer
-      1. For example `cd ~/Downloads`
-   6. Run `sh install_default.sh`
-   7. If you have trouble, see the section Updating Eigendata with a detailed walkthrough on how to open the terminal.
+1. <a href="files/install_default.sh" download="">Download installer</a> to the downloads folder
+2. <a href="files/default_environment.yaml" download="">Download configuration file</a> to the downloads folder
+3. Open a terminal
+   1. If you have trouble, see the section Updating Eigendata with a detailed walkthrough on how to open the terminal.
+4. Type  `cd ~/Downloads`
+5. Type `sh install_default.sh`
 
 
 
@@ -55,6 +50,21 @@ If you don't have Anaconda installed, you will need to [download and install](ht
       
 
 # 🗒️ Release notes
+
+## 0.2.3
+
+**Magic formula bar**
+
+1. **Histograms:** Histograms allow you to understand the distribution of a variable and are among the most commonly used data visualizations. They help you understand how extreme or common a value may be.
+2. **Time delta:** When working with date columns, you can make date calculations like date "+ 30 Days".
+3. **Extract JSON**: When working with real data, you will often encounter data that is encoded as JSON. We have added a new transformation that allows you to easily extract specific fields from within a JSON object.
+4. **Null counts**: Get a quick overview of how many blanks exist in each column, as a total number and a percentage of the number of rows.
+
+**Data visualizer**
+
+1. **Pagination:** Sometimes, a data preview is not enough, and you need to locate a specific row or column to understand what is going on. We have experienced that ourselves and brought functionality that allows you to load additional pages of data.
+
+
 
 ## 0.2.2
 

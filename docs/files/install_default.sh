@@ -19,6 +19,9 @@ if conda info | grep -i 'conda version' ; then
             jupyter labextension install @molinsp/eigendata
             # 5. Install plotly jupyter lab extension
             jupyter labextension install jupyterlab-plotly
+        else
+            echo "Creation of Eigendata environment failed. Please contact support."
+        fi
             
     fi
 else

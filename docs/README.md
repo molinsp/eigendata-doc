@@ -1,34 +1,35 @@
+![logo](/media/logo.png)
 
+Eigendata is a **low-code tool for data analysis designed for people that want to get things done**. 
+
+The main component is the **magic formula bar**, rendered below empty cells in the notebook, it provides fast acess to the most common data transformations without loosing the flexibilit of using code.
+
+You become more productive by :
+
+1. **Googling less** of the most common data transformations
+2. **Interacting with a useful UI**that ensure you understand the libraries and select the right input without typos. **All accessible through keyboard without the slowdown of point-and-click tools**
+3. Keeping track of the current datasets, datatypes and shape at all times through the **data visualizer**
+
+
+
+Besides these improvements, **Eigendata declutters and simplifies the JupyterLab interface**
+
+1. All the menus that can be found through `⌘ ⇧ C` are removed from the UI for simplicity
+2. Intuitive coda/notion like shortcuts for the sidebars `⌘ /` `⌘ \`
+3. When you close a tab, the kernel is shut down 
+
+All of these configurations can also be disabled through the advanced settings `⌘ ,`
 
 # 🖥️ Installation
 
-If you don't have Miniconda installed, you will need to [download and install](https://docs.conda.io/en/latest/miniconda.htmll) it before proceeding.
-
-**Instructions for Windows**
-
-1. <a href="files/install_windows.bat" download="">Download installer</a>  in the downloads folder
-2. <a href="files/windows_environment.yaml" download="">Download configuration file</a>  in the downloads folder
-3. Double click on `install_windows.bat`
-
-**Instructions for Mac/Linux**
-
-1. <a href="files/install_default.sh" download="">Download installer</a> to the downloads folder
-2. <a href="files/default_environment.yaml" download="">Download configuration file</a> to the downloads folder
-3. Open a terminal
-   1. If you have trouble, see the section Updating Eigendata with a detailed walkthrough on how to open the terminal.
-4. Type  `cd ~/Downloads`
-5. Type `sh install_default.sh`
-
-
-
-# 🗒️ Release notes
+1. [Download](https://docs.conda.io/en/latest/miniconda.html) & install miniconda
+2. <a href="files/eigendata-jlab3.yaml" download="">Download conda environment configuration file</a>  in the downloads folder
+3. Create a new environment with all dependencies 
+   1. Open a terminal in the directory where you downloaded the file and run`conda env create -f eigendata-jlab3.yaml ` 
 
 
 
 # ❓FAQ
-
-
-## Error messages
 
 ### Magic Formula Bar is blank/does not appear
 

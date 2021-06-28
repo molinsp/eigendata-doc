@@ -18,4 +18,4 @@ dependencies:
  - pip:
     - fastdata
     - airtable-python-wrapper
-    - plotly>=5.0.0rc2
+    - plotly==5.0.0

@@ -64,7 +64,7 @@ Example transformation UI from a JSON definition:
 
 And the UI rendered based on this definition:
 
-![logo](https://raw.githubusercontent.com/molinsp/eigendata-doc/master/docs/media/transformations_drop.png)
+<img src="https://raw.githubusercontent.com/molinsp/eigendata-doc/master/docs/media/transformations_drop.png" alt="logo" style="zoom:50%;" />
 
 # 🖥️ Installation
 

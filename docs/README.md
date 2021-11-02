@@ -23,7 +23,7 @@ All of these configurations can also be disabled through the advanced settings `
 # 🖥️ Installation
 
 1. [Download](https://docs.conda.io/en/latest/miniconda.html) & install miniconda
-2. <a href="files/eigendata-jlab3.yaml" download="">Download conda environment configuration file</a>  in the downloads folder
+2. <a href="files/environment.yaml" download="">Download conda environment configuration file</a>  in the downloads folder
 3. Create a new environment with all dependencies 
    1. Open a terminal in the directory where you downloaded the file and run`conda env create -f eigendata-jlab3.yaml ` 
 

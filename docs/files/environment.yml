@@ -1,4 +1,4 @@
-name: eigendata-demo
+name: eigendata
 channels:
  - defaults
  - fastai
@@ -15,9 +15,9 @@ dependencies:
  - xlrd=1.2.0
  - rapidfuzz=1.4.1
  - missingno=0.4.2 
+ - plotly=5.3.1
  - pip
  - pip:
     - fastdata
-    - eigendata==0.3.5
+    - eigendata==0.3.6
     - airtable-python-wrapper
-    - plotly==5.0.0

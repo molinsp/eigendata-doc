@@ -1,6 +1,6 @@
 ![logo](/media/logo.png ':size=900')
 
-# Introduction
+# 📖 Introduction
 
 Product managers, business analysts, operations managers, and other non-technical personas often need to analyze data and build workflows in a repeatable way. This is often done in spreadsheets in a way that is not scalable or robust. To overcome challenges found in spreadsheets, many have learned basic coding to automate business processes or analyze data. But for them, the cognitive overhead of remembering code syntax is too high.
 

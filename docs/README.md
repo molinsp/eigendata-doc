@@ -16,31 +16,37 @@ But **for these "semi-technical" users, the cognitive overhead of remembering co
 
 # 💻 JupyterLab extension
 
-**Eigendata is a [JupyterLab](https://jupyter.org/) extension** that
+**Eigendata is a [JupyterLab](https://jupyter.org/) extension** that includes
 
-1. A low-code interface rendered below notebook cells, providing fast access to common data transformations with [Pandas](https://pandas.pydata.org/)
-2. A data visualizer side-bar that lets you inspect the data at all times.
+1. Formulabar: A low-code interface rendered below notebook cells, providing fast access to common data transformations with [Pandas](https://pandas.pydata.org/) (can be hidden/shown with `Ctrl + E`)
+2. Data visualizer: Side-bar that lets you inspect the loaded dataframes
+
+
+
+Loading a CSV file using the formula bar
 
 <img src="https://raw.githubusercontent.com/molinsp/eigendata-doc/master/docs/media/eigendata_data_loading.gif" alt="logo" style="zoom:100%;" />
 
 
 
+Finding data transformations using the formula bar
+
 <img src="https://raw.githubusercontent.com/molinsp/eigendata-doc/master/docs/media/eigendata_search.gif" alt="logo" style="zoom:100%;" />
+
 
 
 # 🛠 Installation
 
-1. [Try online](https://cloud.eigendata.co/)
+1. [Try online](https://cloud.eigendata.co/) (very easy)
 2. Instal desktop version (easy)
-   1. 
+   1. <a href="https://raw.githubusercontent.com/molinsp/eigendata-doc/master/docs/files/environment.yml" download="">Mac Installer</a>
 
 3. Install as a python package (advanced)
    1. If you already have Jupyter Lab >3.0, you can install it with `pip install eigendata`
    2. If you do not have Jupyter Lab installed
       1. [Download](https://docs.conda.io/en/latest/miniconda.html) & install miniconda
-      2. <a href="https://raw.githubusercontent.com/molinsp/eigendata-doc/master/docs/files/environment.yml" download="">Download conda environment configuration file</a>  in the downloads folder
-      3. Create a new environment with all dependencies 
-         1. Open a terminal in the directory where you downloaded the file and run`conda env create -f eigendata-jlab3.yaml ` 
+      2. <a href="https://raw.githubusercontent.com/molinsp/eigendata-doc/master/docs/files/environment.yml" download="">Download conda environment configuration file</a>
+      3. Create a new environment with all dependencies `conda env create -f eigendata-jlab3.yaml ` 
 
 # 🧩 Extension framework
 

@@ -39,7 +39,7 @@ Finding data transformations using the formula bar
 
 1. [Try online](https://cloud.eigendata.co/) (very easy)
 2. Instal desktop version (easy)
-   1. <a href="https://raw.githubusercontent.com/molinsp/eigendata-doc/master/docs/files/environment.yml" download="">Mac Installer</a>
+   1. <a href="https://drive.google.com/file/d/1kJS_iR57bOgr1GDmjIOm62VLp-6zbfyL/view?usp=sharing" download="">Mac Installer</a>
 
 3. Install as a python package (advanced)
    1. If you already have Jupyter Lab >3.0, you can install it with `pip install eigendata`

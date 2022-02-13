@@ -11,8 +11,8 @@ But **for these "semi-technical" users, the cognitive overhead of remembering co
 **Eigendata empowers "semi-technical" users with a Python low-code tool that makes manipulating data as easy as spreadsheets, without any of the limitations**. 
 
 1. You can easily do a quick and dirty analysis without having to deal with the overhead of remembering basic python syntax 
-2. If you need to automate the process, you can leverage the underlying code generated  using the tool to turn the transformations into a repeatable process. 
-3. If the process needs to be "productionized" by an engineering they can start from a code-base based on standard python packages
+2. If you need to automate the process, you can easily schedule the sequence of python transformations 
+3. If the process needs to be productionized by an engineer, the underlying code based on standard python packages can serve as an initial specification
 
 # 💻 JupyterLab extension
 

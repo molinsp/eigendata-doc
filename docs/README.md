@@ -2,24 +2,18 @@
 
 # 📖 Introduction
 
-Product managers, business analysts, operations managers, and other non-technical personas often need to analyze data or complete repetitive tasks in the context of a business process. 
+Non-technical users such as operations managers often need to process and analyze data to get insights about business processes and make decisions. This is often done in spreadsheets in a way that is time-consuming and often leads to errors. 
 
-This is often done in spreadsheets in a way that is not scalable or robust. To overcome challenges found in spreadsheets, many have learned basic coding skills. 
+To overcome challenges found in spreadsheets, many have learned basic coding skills to solve business problems. But for these "semi-technical" users that primarily care about solving a problem, the cognitive overhead of remembering code syntax is too high.
 
-But **for these "semi-technical" users, the cognitive overhead of remembering code syntax is often too high**, hampering their productivity.
-
-**Eigendata empowers "semi-technical" users with a Python low-code tool that makes manipulating data as easy as spreadsheets, without any of the limitations**. 
-
-1. You can easily do a quick and dirty analysis without having to deal with the overhead of remembering basic python syntax 
-2. If you need to automate the process, you can leverage the underlying code generated  using the tool to turn the transformations into a repeatable process. 
-3. If the process needs to be "productionized" by an engineering they can start from a code-base based on standard python packages
+**Eigendata empowers these "semi-technical" users with a Python "low-code" tool that makes manipulating data as easy as spreadsheets, without any of the limitations**. It enables users to work with data quickly without having to deal with the overhead of remembering basic python syntax, while retaining the power of code to review changes and execute the workflow in an automated way.
 
 # 💻 JupyterLab extension
 
 **Eigendata is a [JupyterLab](https://jupyter.org/) extension** that includes
 
-1. Formulabar: A low-code interface rendered below notebook cells, providing fast access to common data transformations with [Pandas](https://pandas.pydata.org/) (can be hidden/shown with `Ctrl + E`)
-2. Data visualizer: Side-bar that lets you inspect the loaded dataframes
+1. **Formulabar:** A low-code interface rendered below notebook cells, providing fast access to common data transformations with [Pandas](https://pandas.pydata.org/) (can be hidden/shown with `Ctrl + E`)
+2. **Data visualizer:** Side-bar that lets you inspect the loaded dataframes
 
 
 

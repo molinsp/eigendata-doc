@@ -2,11 +2,21 @@
 
 # 📖 Introduction
 
-Non-technical users such as operations managers often need to process and analyze data to get insights about business processes and make decisions. This is often done in spreadsheets in a way that is time-consuming and often leads to errors. 
+Product managers, business analysts, operations managers, and other non-technical personas often need to analyze data or complete repetitive tasks in the context of a business process.
 
-To overcome challenges found in spreadsheets, many have learned basic coding skills to solve business problems. But for these "semi-technical" users that primarily care about solving a problem, the cognitive overhead of remembering code syntax is too high.
+This is often done in spreadsheets in a way that is not scalable or robust. To overcome challenges found in spreadsheets, many have learned basic coding.
 
-**Eigendata empowers these "semi-technical" users with a Python "low-code" tool that makes manipulating data as easy as spreadsheets, without any of the limitations**. It enables users to work with data quickly without having to deal with the overhead of remembering basic python syntax, while retaining the power of code to review changes and execute the workflow in an automated way.
+But **for these "semi-technical" users, the cognitive overhead of remembering code syntax is often too high**, hampering their productivity.
+
+<img src="https://raw.githubusercontent.com/molinsp/eigendata-doc/master/docs/media/stack_overflow_pandas.png" alt="logo" style="zoom:50%;" />
+
+**Eigendata empowers "semi-technical" users with a Python low-code tool that makes manipulating data as easy as spreadsheets, without any of the limitations**.
+
+1. You can easily do a quick and dirty analysis without having to deal with the overhead of remembering basic python syntax
+2. If you need to automate the process, you can leverage the underlying code generated using the tool to turn the transformations into a repeatable process.
+3. If the process needs to be "productionized" by an engineering they can start from a code-base based on standard python packages
+
+<img src="https://raw.githubusercontent.com/molinsp/eigendata-doc/master/docs/media/eigendata_overview.png" alt="logo" style="zoom:50%;" />
 
 # 💻 JupyterLab extension
 
@@ -17,24 +27,27 @@ To overcome challenges found in spreadsheets, many have learned basic coding ski
 
 
 
-Loading a CSV file using the formula bar
+### Loading a CSV file using the formula bar
 
 <img src="https://raw.githubusercontent.com/molinsp/eigendata-doc/master/docs/media/eigendata_data_loading.gif" alt="logo" style="zoom:100%;" />
 
-
-
-Finding data transformations using the formula bar
+### Finding data transformations using the formula bar
 
 <img src="https://raw.githubusercontent.com/molinsp/eigendata-doc/master/docs/media/eigendata_search.gif" alt="logo" style="zoom:100%;" />
 
+### Getting user-friendly docs right from the notebook
 
+<img src="https://raw.githubusercontent.com/molinsp/eigendata-doc/master/docs/media/transformations_drop.png" alt="logo" style="zoom:50%;" />
+
+### Generating easy to read code
+
+<img src="https://raw.githubusercontent.com/molinsp/eigendata-doc/master/docs/media/code.png" alt="logo" style="zoom:67%;" />
+
+### Inspect DataFrames
 
 # 🛠 Installation
 
-1. [Try online](https://cloud.eigendata.co/) (very easy)
-2. Instal desktop version (easy)
-   1. <a href="https://drive.google.com/file/d/1kJS_iR57bOgr1GDmjIOm62VLp-6zbfyL/view?usp=sharing" download="">Mac Installer</a>
-
+1. [Try online](https://molinsp.github.io/jupyterlite-eigendata) (very easy)
 3. Install as a python package (advanced)
    1. If you already have Jupyter Lab >3.0, you can install it with `pip install eigendata`
    2. If you do not have Jupyter Lab installed
